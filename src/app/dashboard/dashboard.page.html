@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Painel</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col text-center>
+        Bem vindo ao Painel!
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col text-center>
+        Seu ID de e-mail registrado : {{userEmail}}
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+</ion-content>
+<ion-footer (click)="logout()">
+  <ion-toolbar color="secondary">
+    <ion-title>Sair</ion-title>
+  </ion-toolbar>
+</ion-footer>
