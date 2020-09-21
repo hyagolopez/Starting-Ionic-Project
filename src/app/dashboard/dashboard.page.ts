@@ -28,8 +28,7 @@ export class DashboardPage implements OnInit {
       }
     }, err => {
       console.log('err', err);
-    })
-
+    });
   }
 
   logout() {
@@ -40,6 +39,6 @@ export class DashboardPage implements OnInit {
       })
       .catch(error => {
         console.log(error);
-      })
+      });
   }
 }
