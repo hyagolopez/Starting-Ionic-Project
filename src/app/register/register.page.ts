@@ -22,12 +22,12 @@ export class RegisterPage implements OnInit {
   // tslint:disable-next-line:variable-name
   validation_messages = {
     email: [
-      { type: 'required', message: 'Email is required.' },
-      { type: 'pattern', message: 'Enter a valid email.' }
+      { type: 'required', message: 'O email é obrigatório.' },
+      { type: 'pattern', message: 'Entre com um email válido.' }
     ],
     password: [
-      { type: 'required', message: 'Password is required.' },
-      { type: 'minlength', message: 'Password must be at least 5 characters long.' }
+      { type: 'required', message: 'Senha requerida.' },
+      { type: 'minlength', message: 'A senha deve ter pelo menos 5 caracteres.' }
     ]
   };
 

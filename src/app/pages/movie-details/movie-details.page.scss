@@ -2,4 +2,22 @@
     max-height: 30vh;
     object-fit: contain;
     padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info-text{
+    text-align: justify;
+}
+.info-img-icon{
+    width: 40px;
+    height: 40px;
+}
+.genero{
+    width: 50px;
+    height: 50px;
+}
+.atores{
+    width: 50px;
+    height: 50px;
 }

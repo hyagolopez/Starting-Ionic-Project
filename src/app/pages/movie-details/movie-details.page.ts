@@ -25,6 +25,7 @@ export class MovieDetailsPage implements OnInit {
     // Get the information from the API
     this.movieService.getDetails(id).subscribe(result => {
       this.information = result;
+      console.log(this.information);
     });
   }
 

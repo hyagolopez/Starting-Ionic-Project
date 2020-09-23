@@ -34,10 +34,7 @@
     </div>
 
     <ion-button class="submit-btn" type="submit" [disabled]="!validations_form.valid">Iniciar SESSÃO</ion-button>
-
+    <ion-button class="submit-btn"  (click)="goToRegisterPage()">Criar conta</ion-button>
     <label class="error-message">{{errorMessage}}</label>
   </form>
-  <p class="go-to-register">
-    Nenhuma conta ainda?  <a (click)="goToRegisterPage()">Crie uma conta.</a>
-  </p>
 </ion-content>
